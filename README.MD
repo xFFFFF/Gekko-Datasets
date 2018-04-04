@@ -2,9 +2,11 @@ Ready sqlite datasets files for Gekko. Updated daily at 23:15 GMT. Let me know i
 
 Download: https://drive.google.com/drive/folders/1cdaEPTA2Z_DJWCkbfidlSJVg8gJinK78
 
--Binance - full history
--Poloniex - started from 1 july 2017
+- Binance - full history.
+
+- Poloniex (XMR, USDT) - started from 1 july 2017
 
 Soon
--Poloniex - all pairs
--Bitfinex - USD pairs
+- Poloniex - all pairs
+
+- Bitfinex - USD pairs
