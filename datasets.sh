@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Dir names of Gekko copies
 array=(binance-usdt binance-btc binance-bnb binance-eth poloniex-usdt poloniex-xmr)
 # Patch to parrent dir of above directories
