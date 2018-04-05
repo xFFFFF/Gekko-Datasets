@@ -3,13 +3,14 @@ Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dumps 
 
 Currently available datasets:
 - Binance - BTC, BNB, ETH, USDT (full history)
+- Bitfinex - EUR (from 2018-01-01 - in progress), GBP, JPY (full history) 
 - Poloniex - USDT, XMR (from 2017-07-01)
 - Kraken - USD (from 2018-01-01) - import in progress
 
 Let me know if any dataset is broken - has missed candles, pairs or something.
 
 # Download
-Dumps are shared on Google Drive, detailed information about candles are in .info files. Link: [drive.google.com](https://drive.google.com/drive/folders/1cdaEPTA2Z_DJWCkbfidlSJVg8gJinK78)
+Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. Link: [drive.google.com](https://drive.google.com/drive/folders/1cdaEPTA2Z_DJWCkbfidlSJVg8gJinK78)
 
 # Local datasets update
 I recommend [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) app for self-updating via exchange API import. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
@@ -21,7 +22,7 @@ Feel free if you want to process / modify the data contained in this repository.
 
 # Soon
 - all possible pairs from Poloniex from July 1, 2017. ETH will be available first. BTC pairs are next.
-- all possible pairs from Bitfinex from July 1, 2017. USD will be available first. EUR are next.
+- all possible pairs from Bitfinex from July 1, 2017. USD will be available first. BTC are next.
 - all possible pairs from Kraken from July 1, 2017. USD will be available first. XBT are next.
 - all possible pairs from Gdax from July 1, 2017. EUR will be available first. USD are next.
 
