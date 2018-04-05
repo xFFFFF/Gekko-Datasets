@@ -1,4 +1,5 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
+
 use DBI;
 no warnings;
 
@@ -13,14 +14,14 @@ my $sth = $dbh->prepare( $stmt );
 my $rv = $sth->execute();
 my @row;
 while (@row = $sth->fetchrow_array()) {
-  $stmt = qq(SELECT datetime(start, 'unixepoch') FROM `main`.@row order by start ASC LIMIT 1;);
+  $stmt = qq(SELECT datetime(start, 'unixepoch') FROM `main`.@row order by start DESC LIMIT 1;);
   my $sth = $dbh->prepare( $stmt );
   my $rv = $sth->execute();
   my @row2;
   while (@row2 = $sth->fetchrow_array()) {
     print "@row\nstart: @row2\n";
   }
-  $stmt = qq(SELECT datetime(start, 'unixepoch') FROM `main`.@row order by start DESC LIMIT 1;);
+  $stmt = qq(SELECT datetime(start, 'unixepoch') FROM `main`.@row order by start ASC LIMIT 1;);
   my $sth = $dbh->prepare( $stmt );
   my $rv = $sth->execute();
   my @row2;
