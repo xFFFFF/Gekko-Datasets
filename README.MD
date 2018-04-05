@@ -6,7 +6,7 @@ Dumps are shared on Google Drive, detailed information on candles can be found i
 
 # Local datasets update
 I recommend Gekko-BacktestTool app for self-updating. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
-`./backtest.pl -i -p binance: USDT: ALL -f last -t now`
+`./backtest.pl -i -p binance:USDT:ALL -f last -t now`
 The rest is done automatically.
 
 # Do you want to make a mirror?
