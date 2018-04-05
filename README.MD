@@ -1,5 +1,5 @@
 # What is this?
-Ready to use Gekko's SQLite dumps files. Just copy the file to the history directory and you have: full history of Binance Exchange for example.
+Ready to use Gekko's SQLite dumps files. Just copy the file to the history directory and you have: full history of Binance Exchange for example. The files are updated daily after 23:15 GMT.
 
 # Download
 Dumps are shared on Google Drive, detailed information on candles can be found in .info files. Link: https://drive.google.com/drive/folders/1cdaEPTA2Z_DJWCkbfidlSJVg8gJinK78
