@@ -1,11 +1,11 @@
 # What is it?
-Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dumps files. Just copy the file to the Gekko's history directory and you have: full history of Binance exchange for example. The files are updated daily after 23:15 GMT.
+Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dump files. Just copy the file to the Gekko's history directory and you have: full history of Binance exchange for example. The files are updated daily after 23:15 GMT.
 
 Currently available datasets:
 - **Binance** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
 - **Bitfinex** - *EUR*, *GBP*, *JPY* (full history) 
 - **Poloniex** - *USDT*, *XMR* (from 2017-07-01)
-- **Kraken** - *XBT*, *USD* (from 2017-07-01)
+- **Kraken** - *XBT*, *USD*, *CAD*, *GBP*, *JPY* (from 2017-07-01)
 
 Let me know if any dataset is broken - has missed candles, pairs or something.
 
@@ -25,7 +25,7 @@ Feel free if you want to process / modify the data contained in this repository.
 # Soon
 - all possible pairs from Poloniex from July 1, 2017. ETH will be available first. BTC pairs are next.
 - all possible pairs from Bitfinex from July 1, 2017. USD will be available first. BTC are next.
-- all possible pairs from Kraken from July 1, 2017. JPY will be available first. ETH, EUR are next.
-- all possible pairs from Gdax from July 1, 2017. EUR will be available first. USD are next.
+- all possible pairs from Kraken from July 1, 2017. EUR will be available first. ETH are next.
+- all possible pairs from Gdax from July 1, 2017. EUR will be available first. USD, GPB are next.
 
 Can be more if someone tell me how import candles from other exchanges.
