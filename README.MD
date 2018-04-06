@@ -1,13 +1,24 @@
 # What is it?
-Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dump files. Just copy the file to the Gekko's history directory and you have: full history of Binance exchange for example. The files are updated daily after 23:15 GMT.
+Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dump files with history used to do backtests. Just copy the file downloaded from here to the Gekko's *history* directory and you get for example: full history of Binance exchange.
 
-Currently available datasets:
+In order to improve Gekko's performance, data is divided into separate files sorted by exchange and currency pairs. Each database file contains all possible assets from a given exchange-currency.
+
+The files are updated every day with new data after 23:15 GMT.
+
+Currently available datasets 
 - **Binance** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
 - **Bitfinex** - *EUR*, *GBP*, *JPY* (full history) 
 - **Poloniex** - *USDT*, *XMR* (from 2017-07-01)
-- **Kraken** - *XBT*, *USD*, *CAD*, *GBP*, *JPY* (from 2017-07-01)
+- **Kraken** - *XBT*, *ETH*, *USD*, *CAD*, *GBP*, *JPY* (from 2017-07-01)
 
-Let me know if any dataset is broken - has missed candles, pairs or something.
+Available soon / currently import
+- **Bitfinex** - *USD, BTC* (from 2017-07-01)
+- **Poloniex** - *ETH, BTC* (from 2017-07-01)
+- **Kraken** - *EUR* (from 2017-07-01)
+- **Gdax** - *GBP, USD, EUR* (from 2017-07-01)
+- **Kraken** - *XBT, ETH, USD, EUR, CAD, GBP, JPY* (full history)
+
+Let me know if any dataset is broken - has missed candles, pairs or something else.
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
@@ -22,10 +33,4 @@ The rest is done automatically.
 # Do you want to make a mirror?
 Feel free if you want to process / modify the data contained in this repository. For those interested, I provide scripts whose task is to update datasets from last value to current time and share dumps on Google Drive. The [datasets.sh](datasets.sh) (main script) and [datasets_info.pl](datasets_info.pl) (generating detailed information about candles) files are located in the /root/gekko directory, and my separate copies for each datasets in the following subdirectories: binance-usdt, binance-btc, binance-bnb, binance-eth, poloniex-usdt, poloniex-xmr. Add the [datasets.sh](datasets.sh) file to cron, and the rest happens by itself. Scripts require: [Gekko](https://github.com/askmike/gekko), [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) and [Gdrive](https://github.com/prasmussen/gdrive).
 
-# Soon
-- all possible pairs from Poloniex from July 1, 2017. ETH will be available first. BTC pairs are next.
-- all possible pairs from Bitfinex from July 1, 2017. USD will be available first. BTC are next.
-- all possible pairs from Kraken from July 1, 2017. EUR will be available first. ETH are next.
-- all possible pairs from Gdax from July 1, 2017. EUR will be available first. USD, GPB are next.
-
-Can be more if someone tell me how import candles from other exchanges.
+# I wish you excellent results in backtests!
