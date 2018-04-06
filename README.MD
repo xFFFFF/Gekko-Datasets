@@ -5,7 +5,7 @@ Currently available datasets:
 - **Binance** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
 - **Bitfinex** - *EUR*, *GBP*, *JPY* (full history) 
 - **Poloniex** - *USDT*, *XMR* (from 2017-07-01)
-- **Kraken** - *XBT* (from 2017-07-01), *USD* (from 2017-10-01 - in progress)
+- **Kraken** - *XBT*, *USD* (from 2017-07-01)
 
 Let me know if any dataset is broken - has missed candles, pairs or something.
 
@@ -25,7 +25,7 @@ Feel free if you want to process / modify the data contained in this repository.
 # Soon
 - all possible pairs from Poloniex from July 1, 2017. ETH will be available first. BTC pairs are next.
 - all possible pairs from Bitfinex from July 1, 2017. USD will be available first. BTC are next.
-- all possible pairs from Kraken from July 1, 2017. USD will be available first. ETH are next.
+- all possible pairs from Kraken from July 1, 2017. JPY will be available first. ETH, EUR are next.
 - all possible pairs from Gdax from July 1, 2017. EUR will be available first. USD are next.
 
 Can be more if someone tell me how import candles from other exchanges.
