@@ -2,15 +2,17 @@
 Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dumps files. Just copy the file to the Gekko's history directory and you have: full history of Binance exchange for example. The files are updated daily after 23:15 GMT.
 
 Currently available datasets:
-- Binance - BTC, BNB, ETH, USDT (full history)
-- Bitfinex - EUR (from 2018-01-01 - in progress), GBP, JPY (full history) 
-- Poloniex - USDT, XMR (from 2017-07-01)
-- Kraken - USD (from 2018-01-01) - import in progress
+- **Binance** - BTC, BNB, ETH, USDT (full history)
+- **Bitfinex** - EUR, GBP, JPY (full history) 
+- **Poloniex** - USDT, XMR (from 2017-07-01)
+- **Kraken** - USD (from 2017-10-01) - import in progress
 
 Let me know if any dataset is broken - has missed candles, pairs or something.
 
 # Download
-Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. Link: [drive.google.com](https://drive.google.com/drive/folders/1cdaEPTA2Z_DJWCkbfidlSJVg8gJinK78)
+Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
+
+Link: [drive.google.com](https://drive.google.com/drive/folders/1cdaEPTA2Z_DJWCkbfidlSJVg8gJinK78)
 
 # Local datasets update
 I recommend [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) app for self-updating via exchange API import. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
