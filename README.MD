@@ -10,13 +10,12 @@ Currently available datasets
 - **Bitfinex** - *EUR*, *GBP*, *JPY* (full history) 
 - **Poloniex** - *ETH*, *USDT*, *XMR* (from 2017-07-01)
 - **GDAX** - *EUR*, *GBP* (from 2017-07-01)
-- **Kraken** - *XBT*, *ETH*, *USD*, *CAD*, *GBP*, *JPY* (from 2017-07-01)
+- **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (from 2017-07-01)
 
 Available soon / currently import
 - **Bitfinex** - *ETH, USD, BTC* (from 2017-07-01)
 - **Poloniex** - *BTC* (from 2017-07-01)
-- **Kraken** - *EUR* (from 2017-07-01)
-- **Gdax** - *USD, BTC* (from 2017-07-01)
+- **GDAX** - *USD, BTC* (from 2017-07-01)
 - **Abucoins** - BTC, PLN, EUR, USD (from 2017-07-01)
 - **Kraken** - *XBT, ETH, USD, EUR, CAD, GBP, JPY* (from 2017-01-01)
 
