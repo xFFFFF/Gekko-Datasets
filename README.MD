@@ -17,7 +17,7 @@ Available soon / currently import
 - **Poloniex** - *BTC* (from 2017-07-01)
 - **GDAX** - *USD, BTC* (from 2017-07-01)
 - **Abucoins** - BTC, PLN, EUR, USD (from 2017-07-01)
-- **Kraken** - *XBT, ETH, USD, EUR, CAD, GBP, JPY* (from 2017-01-01)
+- **Kraken** - *XBT, ETH, USD, CAD, GBP, JPY* (from 2017-01-01)
 
 Let me know if any dataset is broken - has missed candles, pairs or something else.
 
