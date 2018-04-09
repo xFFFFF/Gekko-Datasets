@@ -6,7 +6,7 @@ use DBI;
 use POSIX qw(strftime);
 use File::chdir;
 
-open my $fh, '<', 'pairs.conf';
+open my $fh, '<', 'pairs2.conf';
 chomp(my @pairs = <$fh>);
 close $fh;
 
@@ -25,13 +25,13 @@ foreach (@pairs) {
     my $expected;
     while (my @row=$sth->fetchrow_array())  {
       if (defined $expected && $row[0] != $expected) {
-        my $f = sprintf "%s", strftime($fmt, localtime ($expected-10000));
-        my $t = sprintf "%s", strftime($fmt, localtime ($row[0]+10000));
+        my $f = sprintf "%s", strftime($fmt, gmtime ($expected));
+        my $t = sprintf "%s", strftime($fmt, gmtime ($row[0]+60));
         print "perl backtest.pl -i -p $exchange[0]:$table2[1]:$table2[2] -f $f -t $t\n";
         local $CWD = "$_";
-        sleep 1;
-        print `echo "perl backtest.pl -i -p $exchange[0]:$table2[1]:$table2[2] -f \'$f\' -t \'$t\'" >> bascktest4.sh`;
-        sleep 2;
+        unlink 'backtest_missed.sh' if -e 'backtest_missed.sh';
+        print `echo "perl backtest.pl -i -p $exchange[0]:$table2[1]:$table2[2] -f \'$f\' -t \'$t\'" >> backtest_missed.sh`;
+
         local $CWD = "..";
       }
       $expected=$row[0]+60
