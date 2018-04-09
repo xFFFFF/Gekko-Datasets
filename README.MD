@@ -10,14 +10,14 @@ Currently available datasets
 - **Bitfinex** - *ETH* (from 2017-07-01), *EUR*, *GBP*, *JPY* (full history) 
 - **Poloniex** - *ETH*, *USDT*, *XMR* (from 2017-07-01)
 - **GDAX** - *EUR*, *GBP* (from 2017-07-01)
-- **Kraken** - *ETH*, *USD*, *CAD*, *GBP*, *JPY* (from 2017-07-01), *XBT*, *EUR* (from 2017-01-01)
+- **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (from 2017-01-01)
 
 Available soon / currently import
 - **Bitfinex** - *USD, BTC* (from 2017-07-01)
 - **Poloniex** - *BTC* (from 2017-07-01)
 - **GDAX** - *USD, BTC* (from 2017-07-01)
 - **Abucoins** - BTC, PLN, EUR, USD (from 2017-07-01)
-- **Kraken** - *USD, ETH, CAD, GBP, JPY* (from 2017-01-01)
+- **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (from 2015-01-01)
 
 Let me know if any dataset is broken - has missed candles, pairs or something else.
 
