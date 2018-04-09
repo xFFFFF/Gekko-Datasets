@@ -6,7 +6,7 @@ use DBI;
 use POSIX qw(strftime);
 use File::chdir;
 
-open my $fh, '<', 'pairs2.conf';
+open my $fh, '<', 'pairs.conf';
 chomp(my @pairs = <$fh>);
 close $fh;
 
