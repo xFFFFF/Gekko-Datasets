@@ -19,7 +19,7 @@ Available soon / currently import
 - **Abucoins** - BTC, PLN, EUR, USD (from 2017-07-01)
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (from 2015-01-01)
 
-Let me know if any dataset is broken - has missed candles, pairs or something else.
+Let me know if any dataset has missed pairs or something else.
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
