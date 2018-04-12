@@ -1,0 +1,6 @@
+[submodule "BacktestTool"]
+	path = BacktestTool
+	url = https://github.com/xFFFFF/Gekko-BacktestTool.git
+[submodule "gdrive"]
+	path = gdrive
+	url = https://github.com/prasmussen/gdrive

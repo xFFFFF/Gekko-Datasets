@@ -7,25 +7,23 @@ The files are updated every day with new data after 23:15 GMT.
 
 Currently available datasets 
 - **Binance** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
-- **Bitfinex** - *ETH* (from 2017-07-01), *EUR*, *GBP*, *JPY* (full history) 
-- **Poloniex** - *ETH*, *USDT*, *XMR* (from 2017-07-01)
+- **Bitfinex** - *BTC*, *ETH* (from 2017-07-01), *EUR*, *GBP*, *JPY* (full history) 
+- **Poloniex** - *BTC* (from 2017-11-01) *ETH*, *USDT*, *XMR* (from 2017-07-01)
 - **GDAX** - *BTC*, *EUR*, *GBP* (from 2017-07-01)
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (full history)
 
 Available soon / currently import
-- **Bitfinex** - *USD, BTC* (from 2017-07-01)
+- **Bitfinex** - *USD* (from 2017-07-01)
 - **Poloniex** - *BTC* (from 2017-07-01)
-- **GDAX** - *USD* (from 2017-07-01)
+- **GDAX** - *USD* (from 2017-07-01), *EUR* (from 2017-01-01)
 - **Abucoins** - BTC, PLN, EUR, USD (from 2017-07-01)
-
-Let me know if any dataset has missed pairs or something else.
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
 
 Link: [drive.google.com](https://goo.gl/KVpVVR)
 
-The current size of all uncompressed databases is about 8 GB.
+The current size of all uncompressed databases is about 11 GB.
 
 # Local datasets update
 I recommend [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) app for self-updating via exchange API import. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
