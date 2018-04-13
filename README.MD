@@ -40,7 +40,7 @@ Feel free if you want to process / modify the data contained in this repository.
 # Donate
 If you liked my job, you can buy me coffee.
 
-BTC: 32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp
-BCH: qrnp70u37r96ddun2guwrg6gnq45yrxuwu3gyewsgq
-ETH: 0x50b7611b6dC8a4073cB4eF12A6b045f644c3a3Aa
-LTC: M9xT3mcxskjbvowoFa15hbKXShLNTuwr6n
+BTC: `32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp`
+BCH: `qrnp70u37r96ddun2guwrg6gnq45yrxuwu3gyewsgq`
+ETH: `0x50b7611b6dC8a4073cB4eF12A6b045f644c3a3Aa`
+LTC: `M9xT3mcxskjbvowoFa15hbKXShLNTuwr6n`
