@@ -1,7 +1,8 @@
 # What is it?
 Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dump files with history use to do backtests. Just copy downloaded file to the Gekko's *history* directory and you get for example: full history of Binance BTC pairs.
 
-In order to improve Gekko's performance, data is divided into separate files sorted by exchange and currency pairs. Each database file contains all possible assets from a given exchange-currency.
+The data is systematized in two ways: in order to improve Gekko's performance, full history data is divided into separate files sorted by exchange and currency pairs. Each database file contains all possible assets from a given exchange-currency.  
+Second option: data for the last days (7, 14, 30, 60) have all possible currencies and assets from a given exchange in one db file.
 
 The files are updated every day with new data after 23:15 GMT.
 
@@ -21,9 +22,10 @@ Available soon / currently import
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
 
-Link: [drive.google.com](https://goo.gl/KVpVVR)
+Last 7, 14, 30, 60 days: [drive.google.com](https://goo.gl/dzKLmz)
+Full history: [drive.google.com](https://goo.gl/KVpVVR)
 
-The current size of all uncompressed databases is about 12 GB.
+The current size of all uncompressed full period databases is about 12 GB.
 
 # Local datasets update
 I recommend [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) app for self-updating via exchange API import. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
