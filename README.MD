@@ -22,7 +22,7 @@ Available soon / currently import
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
 
-Last 7, 14, 30, 60 days: [drive.google.com](https://goo.gl/dzKLmz)
+Last 7, 14, 30, 60 days: [drive.google.com](https://goo.gl/dzKLmz)   
 Full history: [drive.google.com](https://goo.gl/KVpVVR)
 
 The current size of all uncompressed full period databases is about 12 GB.
