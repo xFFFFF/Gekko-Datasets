@@ -9,15 +9,14 @@ The files are updated every day with new data after 23:15 GMT.
 Currently available datasets 
 - **[Binance](https://www.binance.com/?ref=17905068)** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
 - **Bitfinex** - *BTC*, *ETH*, *USD* (from 2017-07-01), *EUR*, *GBP*, *JPY* (full history) 
-- **Poloniex** - *BTC* (from 2017-11-01), *ETH*, *USDT*, *XMR* (from 2017-07-01)
-- **GDAX** - *BTC*, *EUR*, *GBP* (from 2017-07-01)
+- **Poloniex** - *BTC*, *ETH*, *USDT*, *XMR* (from 2017-07-01)
+- **GDAX** - *BTC*, *EUR*, *GBP* (full history)
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (full history)
 
 Available soon / currently import
 - **Bitfinex** - *USD* (from 2017-01-01)
-- **Poloniex** - *BTC* (from 2017-07-01)
-- **GDAX** - *USD* (from 2017-07-01), *EUR* (from 2017-01-01)
-- **Abucoins** - BTC, PLN, EUR, USD (from 2017-07-01)
+- **Poloniex** - *BTC* (from 2017-01-01)
+- **GDAX** - *USD* (from 2017-07-01)
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
@@ -25,7 +24,7 @@ Dumps are compressed by zip and stored on Google Drive, detailed information abo
 Last 7, 14, 30, 60 days: [drive.google.com](https://goo.gl/dzKLmz)   
 Full history: [drive.google.com](https://goo.gl/KVpVVR)
 
-The current size of all uncompressed full period databases is about 12 GB.
+The current size of all uncompressed full period databases is about 13 GB.
 
 # Local datasets update
 I recommend [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) app for self-updating via exchange API import. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
