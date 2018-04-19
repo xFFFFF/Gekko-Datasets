@@ -8,15 +8,15 @@ The files are updated every day with new data after 23:15 GMT.
 
 Currently available datasets 
 - **[Binance](https://www.binance.com/?ref=17905068)** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
-- **Bitfinex** - *BTC*, *ETH*, *USD* (from 2017-07-01), *EUR*, *GBP*, *JPY* (full history) 
+- **Bitfinex** - *BTC*, *ETH*, *USD* (from 2016-09-01), *EUR*, *GBP*, *JPY* (full history) 
 - **Poloniex** - *BTC*, *ETH*, *USDT*, *XMR* (from 2017-07-01)
-- **GDAX** - *BTC*, *EUR*, *GBP* (full history)
+- **GDAX** - *USD* (from 2017-06-01), *BTC*, *EUR*, *GBP* (full history)
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (full history)
 
 Available soon / currently import
-- **Bitfinex** - *USD* (from 2017-01-01)
+- **Bitfinex** - *USD* (from 2016-01-01)
 - **Poloniex** - *BTC* (from 2017-01-01)
-- **GDAX** - *USD* (from 2017-07-01)
+- **GDAX** - *USD* (from 2017-01-01)
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
@@ -39,7 +39,7 @@ Feel free if you want to process / modify the data contained in this repository.
 - [BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool)
 
 # Donate
-If you liked my job, you can buy me coffee.
+If you liked my work, you can buy me coffee.
 
 BTC: `32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp`   
 BCH: `qrnp70u37r96ddun2guwrg6gnq45yrxuwu3gyewsgq`   
