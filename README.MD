@@ -16,7 +16,6 @@ Currently available datasets
 Available soon / currently import
 - **Bitfinex** - *USD* (from 2013-10-01)
 - **Poloniex** - *BTC* (from 2016-01-01)
-- **GDAX** - *USD* (from 2015-01-01)
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
