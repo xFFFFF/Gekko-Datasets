@@ -8,14 +8,14 @@ The files are updated every day with new data after 23:15 GMT.
 
 Currently available datasets 
 - **[Binance](https://www.binance.com/?ref=17905068)** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
-- **Bitfinex** - *BTC*, *ETH* (from 2017-07-01), *USD* (from 2014-06-01), *EUR*, *GBP*, *JPY* (full history) 
-- **Poloniex** - *BTC* (from 2017-01-01), *ETH*, *USDT*, *XMR* (from 2017-07-01)
+- **Bitfinex** - *ETH* (from 2017-07-01), *BTC*, *USD*, *EUR*, *GBP*, *JPY* (full history) 
+- **Poloniex** - *BTC* (from 2016-01-01), *ETH*, *USDT*, *XMR* (from 2017-07-01)
 - **GDAX** - *USD*, *BTC*, *EUR*, *GBP* (full history)
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (full history)
 
 Available soon / currently import
-- **Bitfinex** - *USD* (from 2013-10-01)
-- **Poloniex** - *BTC* (from 2016-01-01)
+- **Bitfinex** - *ETH* (from 2017-01-01)
+- **Poloniex** - *BTC* (from 2015-01-01)
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
@@ -23,14 +23,14 @@ Dumps are compressed by zip and stored on Google Drive, detailed information abo
 Last 7, 14, 30, 60 days: [drive.google.com](https://goo.gl/dzKLmz)   
 Full history: [drive.google.com](https://goo.gl/KVpVVR)
 
-The current size of all uncompressed full period databases is about 16 GB.
+The current size of all uncompressed full period databases is about 17 GB.
 
 # Install
 1. Go to Google Drive [here](https://goo.gl/dzKLmz) or [here](https://goo.gl/KVpVVR)
 2. Select the dataset that interests you, click with the right mouse button and select Download   
 ![Download](https://i.imgur.com/bg7Nrzt.jpg)
 3. Go to Your gekko's main directory
-4. Create a *history* folder in the main folder gecko if it does not exist   
+4. Create a *history* folder in the main folder gekko if it does not exist   
 ![History folder](https://i.imgur.com/Ct6fnvn.jpg)
 5. Uncompress downloaded file, and copy db file (for eg binance_0.1.db) to *history* folder
 6. Restart Gekko
