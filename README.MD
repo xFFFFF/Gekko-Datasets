@@ -14,7 +14,6 @@ Currently available datasets
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (full history)
 
 Available soon / currently import
-- **Bitfinex** - *ETH* (from 2017-01-01)
 - **Poloniex** - *BTC* (from 2015-01-01)
 
 # Download
