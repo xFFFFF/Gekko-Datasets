@@ -8,7 +8,7 @@ The files are updated every day with new data after 23:15 GMT.
 
 Currently available datasets 
 - **[Binance](https://www.binance.com/?ref=17905068)** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
-- **Bitfinex** - *ETH* (from 2017-07-01), *BTC*, *USD*, *EUR*, *GBP*, *JPY* (full history) 
+- **Bitfinex** - *BTC*, *ETH*, *USD*, *EUR*, *GBP*, *JPY* (full history) 
 - **Poloniex** - *BTC* (from 2016-01-01), *ETH*, *USDT*, *XMR* (from 2017-07-01)
 - **GDAX** - *USD*, *BTC*, *EUR*, *GBP* (full history)
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (full history)
