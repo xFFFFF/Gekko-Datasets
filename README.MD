@@ -1,4 +1,7 @@
 # What is it?
+[![](https://img.shields.io/badge/Powered%20by-Gekko--BacktestTool-blue.svg)](https://github.com/xFFFFF/Gekko-BacktestTool) ![](https://img.shields.io/badge/Made%20in-Perl-blue.svg) [![HitCount](http://hits.dwyl.com/xFFFFF/Gekko-Datasets.svg)](http://hits.dwyl.com/xFFFFF/Gekko-Datasets)   
+[![Donate with Bitcoin](https://en.cryptobadges.io/badge/small/32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp)](https://en.cryptobadges.io/donate/32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp)   
+[![Donate with Ethereum](https://en.cryptobadges.io/badge/small/0x50b7611b6dC8a4073cB4eF12A6b045f644c3a3Aa)](https://en.cryptobadges.io/donate/0x50b7611b6dC8a4073cB4eF12A6b045f644c3a3Aa)   
 Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dump files with history use to do backtests. Just copy downloaded file to the Gekko's *history* directory and you get for example: full history of Binance BTC pairs.
 
 The data is systematized in two ways: in order to improve Gekko's performance, full history data is divided into separate files sorted by exchange and currency pairs. Each database file contains all possible assets from a given exchange-currency.  
@@ -9,12 +12,13 @@ The files are updated every day with new data after 23:15 GMT.
 Currently available datasets 
 - **[Binance](https://www.binance.com/?ref=17905068)** - *BTC*, *BNB*, *ETH*, *USDT* (full history)
 - **Bitfinex** - *BTC*, *ETH*, *USD*, *EUR*, *GBP*, *JPY* (full history) 
-- **Poloniex** - *BTC* (from 2016-01-01), *ETH*, *USDT*, *XMR* (from 2017-07-01)
+- **Poloniex** - *BTC* (from 2015-01-01), *ETH*, *USDT*, *XMR* (from 2017-07-01)
 - **GDAX** - *USD*, *BTC*, *EUR*, *GBP* (full history)
 - **Kraken** - *XBT*, *ETH*, *USD*, *EUR*, *CAD*, *GBP*, *JPY* (full history)
 
 Available soon / currently import
-- **Poloniex** - *BTC* (from 2015-01-01)
+- **Poloniex** - *BTC* (from 2014-01-01)
+- **BitX (aka Luno)** - *MYR, NGN, ZAR* (full history)
 
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
@@ -35,6 +39,7 @@ The current size of all uncompressed full period databases is about 17 GB.
 6. Restart Gekko
 
 # Local datasets update
+![BacktestTool logo](https://camo.githubusercontent.com/5ba8b43ae5c2b380cecf64c857f1a8d1447fe251/68747470733a2f2f692e696d6775722e636f6d2f377253485432752e706e67)    
 I recommend [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) app for self-updating via exchange API import. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
 `./backtest.pl -i -p binance:USDT:ALL -f last -t now`
 The rest is done automatically.
@@ -45,11 +50,3 @@ Feel free if you want to process / modify the data contained in this repository.
 # See also
 - [Free strategies for Gekko](https://github.com/xFFFFF/Gekko-Strategies)
 - [Gekko's BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool)
-
-# Donate
-If you liked my work, you can buy me coffee.
-
-BTC: `32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp`   
-BCH: `qrnp70u37r96ddun2guwrg6gnq45yrxuwu3gyewsgq`   
-ETH: `0x50b7611b6dC8a4073cB4eF12A6b045f644c3a3Aa`   
-LTC: `M9xT3mcxskjbvowoFa15hbKXShLNTuwr6n`   
