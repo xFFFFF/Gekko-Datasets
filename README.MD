@@ -1,5 +1,5 @@
 # What is it?
-[![Powered by Gekko-BacktestTool](https://img.shields.io/badge/Powered%20by-Gekko--BacktestTool-blue.svg)](https://github.com/xFFFFF/Gekko-BacktestTool) ![Perl](https://img.shields.io/badge/Made%20in-Perl-blue.svg) [![HitCount](http://hits.dwyl.com/xFFFFF/Gekko-Datasets.svg)](http://hits.dwyl.com/xFFFFF/Gekko-Datasets)   
+[![Powered by Gekko-BacktestTool](https://img.shields.io/badge/Powered%20by-Gekko--BacktestTool-blue.svg)](https://github.com/xFFFFF/Gekko-BacktestTool) ![Perl](https://img.shields.io/badge/Made%20in-Perl-blue.svg) [![HitCount](http://hits.dwyl.com/xFFFFF/Gekko-Datasets.svg)](http://hits.dwyl.com/xFFFFF/Gekko-Datasets) [![GA](https://ga-beacon.appspot.com/UA-118674108-2/r)](https://github.com/xFFFFF/Gekko-Datasets)   
 [![Donate with Bitcoin](https://en.cryptobadges.io/badge/small/32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp)](https://en.cryptobadges.io/donate/32G2cYTNFJ8heKUbALWSgGvYQikyJ9dHZp)   
 [![Donate with Ethereum](https://en.cryptobadges.io/badge/small/0x50b7611b6dC8a4073cB4eF12A6b045f644c3a3Aa)](https://en.cryptobadges.io/donate/0x50b7611b6dC8a4073cB4eF12A6b045f644c3a3Aa)   
 Ready to use [Gekko trading bot](https://github.com/askmike/gekko) SQLite dump files with history use to do backtests. Just copy downloaded file to the Gekko's *history* directory and you get for example: full history of Binance BTC pairs.
@@ -39,7 +39,7 @@ The current size of all uncompressed full period databases is about 17 GB.
 6. Restart Gekko
 
 # Local datasets update
-![BacktestTool logo](https://camo.githubusercontent.com/5ba8b43ae5c2b380cecf64c857f1a8d1447fe251/68747470733a2f2f692e696d6775722e636f6d2f377253485432752e706e67)    
+![BacktestTool logo](https://camo.githubusercontent.com/07020ba43de383ba3b49ccb87424fa5683e5ba2b/68747470733a2f2f692e696d6775722e636f6d2f473344637637692e706e67)    
 I recommend [Gekko-BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) app for self-updating via exchange API import. With one command you can import all new candles. For example, for dataset binance-usdt, use the command:
 `./backtest.pl -i -p binance:USDT:ALL -f last -t now`
 The rest is done automatically.
