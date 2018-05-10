@@ -26,7 +26,7 @@ Dumps are compressed by zip and stored on Google Drive, detailed information abo
 Last 7, 14, 30, 60 days: [drive.google.com](https://goo.gl/dzKLmz)   
 Full history: [drive.google.com](https://goo.gl/KVpVVR)
 
-The current size of all uncompressed full period databases is about 17 GB.
+The current size of all uncompressed full period databases is about 21 GB.
 
 # Install
 1. Go to Google Drive [here](https://goo.gl/dzKLmz) or [here](https://goo.gl/KVpVVR)
