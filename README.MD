@@ -20,6 +20,9 @@ Available soon / currently import
 - **Poloniex** - *USDT* (full history)
 - **BitX (aka Luno)** - *MYR, NGN, ZAR* (full history)
 
+## Haven't more free space
+I do not have more space on Google Drive - full 15 GB and datasets do not fit. That is why some of the files can not be found there ... if someone wants to support the project, he can give up his drive or set up a new one (you need a phone number to verify - I do not have any more). Then create the API key according to this [tutorial](http://www.iperiusbackup.net/en/how-to-enable-google-drive-api-and-get-client-credentials/). 
+
 # Download
 Dumps are compressed by zip and stored on Google Drive, detailed information about candles are in .info files. 
 
